@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-| Date             : Wed Feb  5 22:31:31 2025
+| Date             : Thu Feb  6 10:53:48 2025
 | Host             : DESKTOP-BVI2T98 running 64-bit major release  (build 9200)
 | Command          : report_power -file lab_2_task_power_routed.rpt -pb lab_2_task_power_summary_routed.pb -rpx lab_2_task_power_routed.rpx
 | Design           : lab_2_task
@@ -30,14 +30,14 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 2.663        |
+| Total On-Chip Power (W)  | 2.065        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 2.556        |
-| Device Static (W)        | 0.107        |
+| Dynamic (W)              | 1.960        |
+| Device Static (W)        | 0.105        |
 | Effective TJA (C/W)      | 4.6          |
-| Max Ambient (C)          | 72.8         |
-| Junction Temperature (C) | 37.2         |
+| Max Ambient (C)          | 75.6         |
+| Junction Temperature (C) | 34.4         |
 | Confidence Level         | Low          |
 | Setting File             | ---          |
 | Simulation Activity File | ---          |
@@ -52,12 +52,12 @@ Table of Contents
 +----------------+-----------+----------+-----------+-----------------+
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
-| Slice Logic    |     0.005 |        2 |       --- |             --- |
-|   LUT as Logic |     0.005 |        1 |     63400 |           <0.01 |
-| Signals        |     0.023 |        5 |       --- |             --- |
-| I/O            |     2.528 |        5 |       210 |            2.38 |
-| Static Power   |     0.107 |          |           |                 |
-| Total          |     2.663 |          |           |                 |
+| Slice Logic    |     0.004 |        2 |       --- |             --- |
+|   LUT as Logic |     0.004 |        1 |     63400 |           <0.01 |
+| Signals        |     0.020 |        5 |       --- |             --- |
+| I/O            |     1.936 |        5 |       210 |            2.38 |
+| Static Power   |     0.105 |          |           |                 |
+| Total          |     2.065 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -67,9 +67,9 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     0.063 |       0.040 |      0.024 |
-| Vccaux    |       1.800 |     0.111 |       0.092 |      0.019 |
-| Vcco33    |       3.300 |     0.716 |       0.712 |      0.004 |
+| Vccint    |       1.000 |     0.057 |       0.036 |      0.021 |
+| Vccaux    |       1.800 |     0.089 |       0.071 |      0.019 |
+| Vcco33    |       3.300 |     0.549 |       0.545 |      0.004 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
 | Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |
 | Vcco15    |       1.500 |     0.000 |       0.000 |      0.000 |
@@ -134,7 +134,7 @@ Table of Contents
 +------------+-----------+
 | Name       | Power (W) |
 +------------+-----------+
-| lab_2_task |     2.556 |
+| lab_2_task |     1.960 |
 +------------+-----------+
 
 
